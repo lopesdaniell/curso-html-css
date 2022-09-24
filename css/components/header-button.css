@@ -1,0 +1,20 @@
+.button1 {
+  display: inline-flex;
+  color: white;
+  background-color: #f25a70;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: transform 100ms linear;
+  box-shadow: 4px 4px 0 black;
+}
+
+.button1::before {
+  content: none;
+}
+
+.button1:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}

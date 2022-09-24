@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(196, 196, 196);
+  background-color: #7c5e99;
   padding: 10px;
   border-bottom: 5px solid #000;
 }
@@ -13,14 +13,14 @@ a {
   font-family: "Fira Code", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: black;
+  color: white;
   text-decoration: none;
   margin-right: 30px;
 }
 
 a::before {
   content: "";
-  background-color: #000;
+  background-color: white;
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -33,27 +33,4 @@ a:hover {
 
 img {
   padding-left: 20px;
-}
-
-#button1 {
-  display: inline-flex;
-  color: white;
-  background-color: #000;
-  height: 60px;
-  line-height: 60px;
-  padding-left: 10px;
-  padding-right: 30px;
-  transition: transform 100ms linear;
-}
-
-#button1:hover {
-  transform: scale(1.08);
-  opacity: 1;
-}
-
-h1 {
-  font-family: "Press Start 2P", sans-serif;
-  font-size: 40px;
-  color: rgb(196, 196, 196);
-  text-shadow: 5px 5px #000;
 }
