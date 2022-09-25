@@ -1,6 +1,12 @@
-h1 {
+.main-title {
   font-family: "Press Start 2P", sans-serif;
   font-size: 40px;
   color: #f25a70;
   text-shadow: 5px 5px black;
+}
+
+.main-title.-second {
+  color: white;
+  text-align: center;
+  text-shadow: none;
 }

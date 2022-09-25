@@ -1,0 +1,28 @@
+.skills {
+  height: 730px;
+  background-color: #f25a70;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 10px solid #7c5e99;
+}
+
+.skills .title {
+  font-family: "Press Start 2P";
+  font-size: 25px;
+  color: white;
+  text-shadow: none;
+}
+
+.skills .skill {
+  display: flex;
+}
+
+.skill .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skill img {
+  margin-right: 25px;
+}
